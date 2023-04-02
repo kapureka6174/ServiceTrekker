@@ -7,10 +7,11 @@ title: "Callouts"
 Quartz supports the same Admonition-callout syntax as Obsidian.
 
 This includes
+
 - 12 Distinct callout types (each with several aliases)
 - Collapsable callouts
 
-See [documentation on supported types and syntax here](https://help.obsidian.md/How+to/Use+callouts#Types).
+See [documentation on supported types and syntax here](https://help.obsidian.md/Editing+and+formatting/Callouts).
 
 ## Showcase
 
@@ -22,31 +23,31 @@ See [documentation on supported types and syntax here](https://help.obsidian.md/
 >
 > Aliases: note
 
-> [!abstract] Summaries 
+> [!abstract] Summaries
 >
 > Aliases: abstract, summary, tldr
 
-> [!info] Info 
+> [!info] Info
 >
 > Aliases: info, todo
 
-> [!tip] Hint 
+> [!tip] Hint
 >
 > Aliases: tip, hint, important
 
-> [!success] Success 
+> [!success] Success
 >
 > Aliases: success, check, done
 
-> [!question] Question 
+> [!question] Question
 >
 > Aliases: question, help, faq
 
-> [!warning] Warning 
+> [!warning] Warning
 >
 > Aliases: warning, caution, attention
 
-> [!failure] Failure 
+> [!failure] Failure
 >
 > Aliases: failure, fail, missing
 
