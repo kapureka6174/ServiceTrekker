@@ -1,29 +1,30 @@
-name: Jacky Zhao
-enableToc: true
-openToc: false
-enableLinkPreview: true
-enableLatex: true
-enableCodeBlockTitle: true
-enableCodeBlockCopy: true
-enableCallouts: true
-enableSPA: true
-enableFooter: true
-enableContextualBacklinks: true
-enableRecentNotes: false
-enableGitHubEdit: true
-enableMermaid: true
-GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
-search:
+name: Kapureka6174
+enableToc: true # 目次の表示をするかどうか
+openToc: true # 初めから目次を開いた状態で表示するか
+enableLinkPreview: true # ホバー時のプレビューを表示するかどうか
+enableLatex: true # Latexを使用するか
+enableCodeBlockTitle: true # コードブロックのタイトルを表示するかどうか
+enableCodeBlockCopy: true # コードブロックのコピーボタンを表示するかどうか
+enableCallouts: true # コールアウトを表示するかどうか
+enableSPA: true # SPA形式の表示を有効にするかどうか
+enableFooter: true # フッターを表示するかどうか
+enableContextualBacklinks: true # バックリンクを表示するかどうか
+enableRecentNotes: true # ホームページに最近のノートのセクションを表示するかどうか
+enableGitHubEdit: false # 最後に編集されたフィールドの横に '編集' ボタンを表示するかどうか
+enableMermaid: true # mermaid.jsの図を利用するか
+enableEmoji: true # 絵文字を使用するかどうか
+hasCJKLanguage: true # 日本語、中国語、韓国語のどれかを使用するかどうか
+GitHubLink: https://github.com/kapureka6174/ServiceTrekker/tree/hugo/content
+search: # セマンティック検索を強化するためにオペランドを使用するかどうか
   enableSemanticSearch: false
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
-description:
+description: # SEOのためのページの説明
   Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
   Wikilink support, backlinks, local graph, tags, and link previews.
-page_title:
-  "🪴 Quartz 3.3"
+page_title: "Service Trekker" # ページのタイトル
 links:
   - link_name: Twitter
-    link: https://twitter.com/_jzhao
+    link: https://twitter.com/kapureka_6174
   - link_name: GitHub
-    link: https://github.com/jackyzha0
+    link: https://github.com/kapureka6174

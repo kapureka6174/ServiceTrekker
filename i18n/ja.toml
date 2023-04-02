@@ -1,0 +1,65 @@
+[404_message]
+other = "ごめんなさい！ちょっと、迷っているみたいだけど このページは存在しません（非公開の可能性もあります）。"
+
+[404_back]
+other = "↳ ホームに戻る"
+
+[all_posts]
+other = "全ての {{.Title}}"
+
+[last_updated]
+other = "最終更新"
+
+[notes_count]
+other = "個のメモ"
+
+[first_10]
+other = "上位10件"
+
+[tag]
+other = "タグ"
+
+[backlinks]
+other = "バックリンク"
+
+[no_backlinks]
+other = "バックリンクはありません"
+
+[home]
+other = "ホーム"
+
+[light_mode]
+other = "ライトモード"
+
+[dark_mode]
+other = "ダークモード"
+
+[edit_source]
+other = "編集する"
+
+[interactive_graph]
+other = "インタラクティブグラフ"
+
+[search]
+other = "検索"
+
+[search_icon]
+other = "検索アイコン"
+
+[icon_search]
+other = "検索を開くためのアイコン"
+
+[recent_notes]
+other = "最近のメモ"
+
+[first_3_notes]
+other = "直近3件 {{ .notes }}"
+
+[search_for_something]
+other = "テキスト"
+
+[toc]
+other = "目次"
+
+[copyright]
+other = "Made by {{ .name }} using <a href=\"https://github.com/kapureka6174/ServiceTrekker\">ServiceTrekker</a>, © {{ .year }}"

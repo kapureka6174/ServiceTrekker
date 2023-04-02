@@ -1,5 +1,7 @@
 baseURL = "https://kapureka6174.github.io/ServiceTrekker/"
-languageCode = "en-us"
+defaultContentLanguage = "ja"
+hasCJKLanguage = true
+languageCode = "ja"
 relativeURLs = false
 disablePathToLower = true
 ignoreFiles = [
@@ -12,7 +14,7 @@ enableGitInfo = true
 
 [markup]
     [markup.tableOfContents]
-        endLevel = 3
+        endLevel = 4
         ordered = true
         startLevel = 2
     [markup.highlight]
