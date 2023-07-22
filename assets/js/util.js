@@ -102,9 +102,8 @@ const highlight = (content, term) => {
     })
     .join(" ")
     .replaceAll('</span> <span class="search-highlight">', " ")
-  return `${startIndex === 0 ? "" : "..."}${mappedText}${
-    endIndex === splitText.length ? "" : "..."
-  }`
+  return `${startIndex === 0 ? "" : "..."}${mappedText}${endIndex === splitText.length ? "" : "..."
+    }`
 }
 
 // Common utilities for search
@@ -119,12 +118,15 @@ const redir = (id, term) => {
   const shouldTrim = PRODUCTION && SEARCH_ENABLED
   const baseURLPrefix = shouldTrim ? "" : BASE_URL.replace(/\/$/g, "")
   const urlString = `${baseURLPrefix}${id}#:~:text=${encodeURIComponent(term)}`
-  window.Million.navigate(new URL(urlString), ".singlePage")
+  window.Million.navigate(
+    new URL(urlString),
+    ".singlePage",
+  )
   closeSearch()
   plausible("Search", {
     props: {
-      term,
-    },
+      term
+    }
   })
 }
 
@@ -198,20 +200,21 @@ const displayResults = (term, finalResults, extractHighlight = false) => {
           return resultToHTML({
             url: result.url,
             title: highlight(result.title, term),
-            content: highlight(removeMarkdown(result.content), term),
+            content: highlight(removeMarkdown(result.content), term)
           })
         } else {
           return resultToHTML(result)
         }
-      })
+      }
+      )
       .join("\n")
     if (LATEX_ENABLED) {
       renderMathInElement(results, {
         delimiters: [
-          { left: "$$", right: "$$", display: false },
-          { left: "$", right: "$", display: false },
+          { left: '$$', right: '$$', display: false },
+          { left: '$', right: '$', display: false },
         ],
-        throwOnError: false,
+        throwOnError: false
       })
     }
 

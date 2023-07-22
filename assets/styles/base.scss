@@ -1,21 +1,16 @@
 // Replace this with your own font imports!
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Inter:wght@400;600;700&family=Source+Sans+Pro:wght@400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Inter:wght@400;600;700&family=Source+Sans+Pro:wght@400;600&display=swap');
 :root {
-  --font-body: "Source Sans Pro";
-  --font-header: "Inter";
-  --font-mono: "Fira Code";
+  --font-body: "Source Sans Pro", sans-serif;
+  --font-header: "Inter", sans-serif;
+  --font-mono: "Fira Code", monospace;
 }
 
 // typography
 html {
   scroll-behavior: smooth;
   &:lang(ar) {
-    & p,
-    & h1,
-    & h2,
-    & h3,
-    article,
-    header {
+    & p, & h1, & h2, & h3, article, header {
       direction: rtl;
       text-align: right;
     }
@@ -34,6 +29,7 @@ html {
   }
 }
 
+
 body {
   margin: 0;
   height: 100vh;
@@ -43,13 +39,7 @@ body {
   background-color: var(--light);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-thead {
+h1, h2, h3, h4, h5, h6, thead {
   font-family: var(--font-header);
   color: var(--dark);
   font-weight: revert;
@@ -68,15 +58,7 @@ thead {
   color: var(--dark);
 }
 
-p,
-ul,
-text,
-a,
-tr,
-td,
-li,
-ol,
-ul {
+p, ul, text, a, tr, td, li, ol, ul {
   font-family: var(--font-body);
   color: var(--gray);
   fill: var(--gray);
@@ -85,9 +67,7 @@ ul {
   padding: revert;
 }
 
-tbody,
-li,
-p {
+tbody, li, p {
   line-height: 1.5em;
 }
 
@@ -130,8 +110,7 @@ p {
     content: counter(section) "  ";
   }
 
-  & > li::marker,
-  & > li > ol > li::marker {
+  & > li::marker, & > li > ol > li::marker {
     font-family: var(--font-body);
     font-weight: 700;
   }
@@ -144,8 +123,7 @@ table {
   border-collapse: collapse;
 }
 
-td,
-th {
+td, th {
   padding: 0.2em 1em;
   border: 1px solid var(--outlinegray);
 }
@@ -162,7 +140,7 @@ p > img + em {
 }
 
 sup {
-  line-height: 0;
+  line-height: 0
 }
 
 blockquote {
@@ -196,8 +174,7 @@ blockquote {
       background-color: transparent !important;
     }
 
-    & a[href$="#"],
-    &.active a {
+    & a[href$="#"], &.active a {
       opacity: 0.2;
     }
   }
@@ -311,12 +288,8 @@ code {
 }
 
 @keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
 
 footer {
@@ -358,7 +331,7 @@ hr {
         margin: 0.5em 0;
         padding: 0.25em 1em;
         border: var(--outlinegray) 1px solid;
-        border-radius: 5px;
+        border-radius: 5px
       }
     }
   }
@@ -372,6 +345,7 @@ hr {
 
     & > svg {
       margin-bottom: -5px;
+
     }
   }
 }
@@ -494,8 +468,7 @@ header {
         background: var(--light);
         outline: none;
 
-        &:hover,
-        &:focus {
+        &:hover, &:focus {
           background: rgba(180, 180, 180, 0.15);
         }
 
@@ -510,8 +483,7 @@ header {
           border-bottom: 1px solid var(--outlinegray);
         }
 
-        & > h3,
-        & > p {
+        & > h3, & > p {
           margin: 0;
         }
       }
@@ -529,6 +501,7 @@ header {
   list-style: none;
   margin-top: 2em;
   padding-left: 0;
+
 }
 
 .section-li {
@@ -597,7 +570,7 @@ header {
   transition: opacity 0.2s ease, transform 0.2s ease;
   user-select: none;
   overflow-wrap: anywhere;
-  box-shadow: 6px 6px 36px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 6px 6px 36px 0 rgba(0,0,0,0.25);
 
   @media all and (max-width: 600px) {
     display: none !important;
@@ -627,8 +600,7 @@ header {
     padding: 0.5rem 0;
   }
 
-  & > p,
-  & > a {
+  & > p, & > a {
     font-size: 1rem;
     font-weight: 400;
     user-select: none;
